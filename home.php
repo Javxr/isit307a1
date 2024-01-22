@@ -7,11 +7,10 @@
 
 <body>
 	<h1>Funny Facts</h1>
+	<form name="nicknameInput" action="quiz.php" method="post">
 	<label>Enter a nickname:</label>
-	<input type="text">
-	<p>
-	<button onclick="document.location='music.php'">Take Music Quiz</button>
-	<button onclick="document.location='countries.php'">Take Countries Quiz</button>
-	</p>
+	<input type="text" name="nickname">
+	<p><input type="submit" name="Submit" value="Take a Quiz" /></p>
+	</form>
 </body>
 </html>

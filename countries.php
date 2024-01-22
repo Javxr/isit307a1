@@ -7,10 +7,10 @@
 
 <body>
 	<h1>Funny Facts</h1>
-	<h3>Welcome to the Countries Quiz</h3>
+	<h3>Welcome to the Countries Quiz!</h3>
 	<h3>This quiz consists of 3 true or false questions about countries.</h3>
 	<?php 
-		$Questions = array(
+		$Statements = array(
 		'The Singapore flag has 6 stars.', //f
 		'China has the largest population in the world.', //t
 		'Russia is from Asia.', //f
@@ -25,10 +25,13 @@
 		
 		$Answers = array();
 		
-		foreach($Questions as $q) {
+		foreach($Statements as $q) {
 			echo $q ."<br />";
 		}
 	?>
-	<p><button onclick="document.location='home.php'">Cancel</button></p>
+	<p>
+	<button onclick="document.location='home.php'">Cancel</button>
+	<button>Submit</button>
+	</p>
 </body>
 </html>
